@@ -1,0 +1,28 @@
+
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Harmony</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles/index.css') }}">
+</head>
+
+
+<body>
+    <h1>Harmony</h1>
+    <h3>(totally not a Discord ripoff)</h3>
+
+    <div class="buttons">
+        <form action="/login" method="get">
+            <button class="button" type="submit">Login</button>
+            </form>
+
+        <form action="/signup" method="get">
+            <button class="button" type="submit">Create Account</button>
+            </form>
+      </div>
+
+</body>
+
+
+</html>
